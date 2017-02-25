@@ -4,7 +4,7 @@ Here is a short description of each symbol or operation and what it does:
 
 ### Definition {#definition}
 
-```
+```ruby
 header = ...
 ```
 
@@ -16,7 +16,7 @@ header = ...
 
 ### Concatenation {#concatenation}
 
-```
+```ruby
 example = "Hello world" "!"
 ```
 
@@ -28,7 +28,7 @@ example = "Hello world" "!"
 
 ### Alternation
 
-```
+```ruby
 example = "Hello world" "!" | "."
 ```
 
@@ -40,7 +40,7 @@ example = "Hello world" "!" | "."
 
 ### Option
 
-```
+```ruby
 example = "Hello world" [ "!" ]
 ```
 
