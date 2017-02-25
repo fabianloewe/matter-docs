@@ -1,10 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [Why Matte](why-matter.md)r
-* Installing Matter
-* Using the Matter compiler
-* Using the Matter language
+* Installation
+* Using the compiler
+* Overview
 * [Syntax](//syntax.md#syntax-definition)
   * [Definition](/syntax/definition.md)
   * [Concatenation](/syntax/concatenation.md)
