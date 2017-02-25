@@ -32,15 +32,17 @@ ForLoop < Statement:
     statements = { Statement }*
 ```
 
-Do you understand what we did here? You have heared about [EBNF \(Extended Backus-Naur Form\)](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form "EBNF description on Wikipedia")? Impressive! If not don't worry, you can move on to the next chapter describing this syntax: [Syntax Definition](/chapter1.md).
+Do you understand what we did here? You have heared about [EBNF \(Extended Backus-Naur Form\)](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form "EBNF description on Wikipedia")?
 
-Now that you know what EBNF is you will see something differences between the definitions you have found on the Internet and this ones. Here are the differences:
+Not? Don't worry, you can move on to the next chapter describing this syntax: [Syntax Definition](/chapter1.md).
 
-* **Concatenation: **No comma \(","\) needed! A whitespace concatenates to definitions 
-* **Termination:** No semicolon \(";"\) needed! Each line is one definition. To define multiple things just use multiple variables.
-* **Terminal strings: **Always use double quotes \( " \)! Single quotes are **not** allowed!
-* **Special sequences: **Does not exist! Everything must be defined somewhere.
-* **Ranges:** 
+You have? Impressive! Then you likely found some differences between what you know and what this code looks like. Here are all differences described:
+
+* **Concatenation: **No comma \(`,`\) needed! A whitespace concatenates two definitions.
+* **Termination:** No semicolon \(`;`\) needed! Each line is one definition. To define multiple things just use multiple variables.
+* **Terminal strings: **Always use double quotes \(`"`\)! Single quotes \(`'`\) are **not** **allowed**!
+* **Special sequences: **Do not exist! Everything must be defined somewhere.
+* **Ranges:** Matter has a range operation: two dots \(`..`\). More about that here.
 
 
 

@@ -1,5 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Syntax Definition](chapter1.md)
+* [Syntax Definition](//syntax.md#syntax-definition)
+* [Definition](//syntax.md#definition)
 
