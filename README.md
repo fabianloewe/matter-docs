@@ -34,7 +34,7 @@ ForLoop < Statement:
 
 Do you understand what we did here? You have heared about [EBNF \(Extended Backus-Naur Form\)](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form "EBNF description on Wikipedia")?
 
-Not? Don't worry, you can move on to the next chapter describing this syntax: [Syntax Definition](/chapter1.md).
+Not? Don't worry, you can move on to the next chapter describing this syntax: [Syntax Definition](///syntax.md#syntax-definition).
 
 You have? Impressive! Then you likely found some differences between what you know and what this code looks like. Here are all differences described:
 
