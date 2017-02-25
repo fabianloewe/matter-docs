@@ -4,7 +4,7 @@
 * Installation
 * Using the compiler
 * Overview
-* [Syntax](//syntax.md#syntax-definition)
+* [Syntax](/syntax/README.md)
   * [Definition](/syntax/definition.md)
   * [Concatenation](/syntax/concatenation.md)
   * [Alternation](/syntax/alternation.md)
