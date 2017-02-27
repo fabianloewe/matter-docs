@@ -16,9 +16,7 @@
   * [Group](syntax/group.md)
   * [Range](syntax/range.md)
 * [Mapping](mapping.md)
-  * Built-in types
-    * [Int](/mapping/int.md)
+  * [Built-in types](mapping/built-in-types.md)
     * [String](mapping/available-types.md)
-
-
+    * [Int](/mapping/int.md)
 
