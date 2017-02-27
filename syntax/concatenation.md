@@ -12,7 +12,5 @@ example = "Hello world" "!"
 
 In the example above this means the string `Hello world` is expected first then `!` must immediately follow.
 
-**Invalid string: **
-
-**Valid string: **`Hello world!`
+**Invalid strin**
 
