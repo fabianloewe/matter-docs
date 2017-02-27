@@ -1,10 +1,8 @@
-## Option
+## Group
 
-An _option_ is a rule which can be defined in the parsed string but doesn't have to.
+A _group_ creates a sub-rule by containing one or more other rules. It can \(and should\) also be used to make larger rules like an huge [alternation](//syntax/alternation.md) more outstanding. 
 
 **Symbol:** Square brackets \(`[` and `]` \)
-
-
 
 #### Example
 

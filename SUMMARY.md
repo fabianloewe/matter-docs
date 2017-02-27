@@ -9,4 +9,5 @@
   * [Concatenation](/syntax/concatenation.md)
   * [Alternation](/syntax/alternation.md)
   * [Option](/syntax/option.md)
+  * [Group](syntax/group.md)
 
