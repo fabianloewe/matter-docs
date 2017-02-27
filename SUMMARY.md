@@ -15,4 +15,7 @@
   * [Option](/syntax/option.md)
   * [Group](syntax/group.md)
   * [Range](syntax/range.md)
+* [Mapping](mapping.md)
+  * [String](mapping/available-types.md)
+  * [Int](mapping/int.md)
 

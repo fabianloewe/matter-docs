@@ -12,7 +12,11 @@ A parent is a type which contains other types in its body.
 
 ## Child
 
-A child is a type which is defined in the body of another type. 
+A child is a type which is defined in the body of another type.
+
+## AST
+
+Abstract Syntax Tree
 
 
 

@@ -6,7 +6,7 @@ A _range_ is rule which expects one or more characters in a certain range. Basic
 * Uppercase letter to uppercase letter \(`A` to `Z`\)
 * Digit to digit \(`0` to `9`\)
 
-Ranges of multiple characters are allowed as long as they consist of one of the above kinds. These ranges are evaluated \(like numbers are incremented\) from right to left. To get a better understanding of this see the example below.
+Ranges of multiple characters are allowed as long as they consist of one of the above kinds. These ranges are evaluated \(like decimal numbers are incremented\) from right to left. To get a better understanding of this see the example below.
 
 #### Example
 
