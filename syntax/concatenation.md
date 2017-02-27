@@ -4,13 +4,17 @@ A _concatenation_ appends one rule to another. This means that to be valid, the 
 
 **Symbol: **Whitespace
 
+
+
 #### Example
 
 ```ruby
 example = "Hello world" "!"
 ```
 
-In the example above this means the string `Hello world` is expected first then `!` must immediately follow.
+In the example above the string `Hello world` is expected first then `!` must immediately follow.
 
-**Invalid strin**
+**Valid string: **`Hello world!`
+
+**Invalid strings: **`Hello world !` , `Hello world`
 

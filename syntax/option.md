@@ -1,10 +1,20 @@
 ### Option
 
+An _option_ is a rule which can be defined in the parsed string but doesn't have to. 
+
+**Symbol: **
+
+
+
+#### Example
+
 ```ruby
 example = "Hello world" [ "!" ]
 ```
 
-**Symbol:** Square brackets \(`[` and `]`\)
+`Hello world` is expected first then `!` can immediately follow.
 
-**Operation: **The part between the square brackets can exist but doesn't have to. In the example above this means the string `Hello world` is expected first then `!` can immediately follow. So `Hello world` and `Hello world!` are both valid.
+**Valid strings:** `Hello world` , `Hello world!` 
+
+**Invalid strings: **`Hello world.` , `Hello world !`
 

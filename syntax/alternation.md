@@ -1,10 +1,18 @@
-### Alternation
+## Alternation
+
+An \_alternation \_makes it possible to define one or more alternatives which are tried from left to right. Once one rule was correctly evaluated no other possibilites are checked and the parser moves on to the next rule.
+
+**Symbol:** TODO: add name \(`|`\)
+
+#### Example
 
 ```ruby
 example = "Hello world" "!" | "."
 ```
 
-**Symbol:** TODO: add name \(`|`\)
+This example expectes `Hello world` first then either `!` or `.` can follow.
 
-**Operation: **The first part or the second is expected. In the example above this means the string `Hello world` is expected first then `!` or `.` can follow. So both `Hello world!` and `Hello world.`would be accept while for example `Hello world?` would **not**. To make an alternation better visible consider using grouping.
+**Valid strings: **`Hello world!` , `Hello world.`
+
+**Invalid strings:** `Hello world !` , `Hello world!.`
 
