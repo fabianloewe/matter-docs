@@ -1,4 +1,4 @@
-### Concatenation {#concatenation}
+## Concatenation
 
 A _concatenation_ appends one rule to another. This means that to be valid, the first rule must be parsed followed by the second one immediately.
 
@@ -10,7 +10,9 @@ A _concatenation_ appends one rule to another. This means that to be valid, the 
 example = "Hello world" "!"
 ```
 
-**Symbol:** Whitespace
+In the example above this means the string `Hello world` is expected first then `!` must immediately follow.
 
-**Operation: **The part on which the whitespace follows must be successfully parsed first. Then the part behind the whitespace must be parsed correctly, too. In the example above this means the string `Hello world` is expected first then `!` must immediately follow. So `Hello world!` would be parsed successfully while for example `Hello world !` would **not**.
+**Invalid string: **
+
+**Valid string: **`Hello world!`
 
