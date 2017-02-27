@@ -1,10 +1,12 @@
-### Definition {#definition}
+## Definition
+
+A _Definition_ is a grammatical rule assigned to variable. The variable name can only consist of lowercase letters, numbers and dashes \(`-`\).
+
+#### Example
 
 ```ruby
-header = ...
+example = "Hello world"
 ```
 
-**Symbol:** Equals sign \(`=`\)
-
-**Operation: **The definitions on the right side are assigned to variable on left side \(in the example above this is `header` \).
+In this example the variable `example` defines a rule which is only valid if the string `Hello world` is parsed.
 

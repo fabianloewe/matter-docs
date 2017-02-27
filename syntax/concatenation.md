@@ -1,5 +1,11 @@
 ### Concatenation {#concatenation}
 
+A _concatenation _appends one rule to another. This means that to be valid, the first rule must be parsed followed by the second one immediately.
+
+**Symbol: **Whitespace
+
+#### Example
+
 ```ruby
 example = "Hello world" "!"
 ```
