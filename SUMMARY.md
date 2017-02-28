@@ -22,4 +22,5 @@
     * [Float](mapping/float.md)
     * [Tuple](mapping/tuple.md)
     * [List](mapping/list.md)
+  * [Methods](mapping/methods.md)
 
