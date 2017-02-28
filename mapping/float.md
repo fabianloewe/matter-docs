@@ -31,5 +31,7 @@ ExampleType < Matter:
     #invalid2 -> String  # Valid
 ```
 
+Only `valid` can be converted to `Float` because its rule is made of strings containing just digits and exactly one dot.
 
+`invalid1` could be legally converted to [`Int`](//mapping/int.md) while `invalid2` just is a valid [`String`](/mapping/available-types.md).
 

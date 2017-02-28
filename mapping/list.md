@@ -5,11 +5,11 @@ A `List` represents a mutable set of multiple values of one type. It is returned
 #### Notes
 
 * To use a variable as the index call the `at` method.
-* If you get a `List` from a [_zero-or-more-times repetition_](/syntax/repetition.md#zero-or-more-times) check that the list is not empty by calling `not-empty`.
+* If you get a `List` from a [_zero-or-more-times repetition_](/syntax/repetition.md#zero-or-more-times), check that the list is not empty by calling `not-empty`.
 
 ### Examples
 
-##### **Access the second element:**
+##### **Access the first element:**
 
 ```ruby
 ExampleType < Matter:
@@ -32,10 +32,11 @@ ExampleType < Matter:
     example -> String:
       if example.not-empty:
         example.0
-        
+      else:
+        "I am empty!"
 ```
 
-Before we access the first element of `example` we make sure with an _if-statement_ that the list is not empty.
+Before we access the first element of `example` we make sure with an _if-statement_ that the list is not empty or otherwise return `I am empty!` with an _else-statement_.
 
-We access the second element of the third element \(the tuple inside\) of `example`. So either `tuples` or `nice` can be returned.
+If we left out the _if-else-construct_ and the list was empty, an error would be trown and the parser would stop immediately.
 

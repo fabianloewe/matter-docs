@@ -27,5 +27,7 @@ ExampleType < Matter:
     #invalid -> String  # Valid
 ```
 
+Only `valid` can be converted to `Int` because its rule is made of strings containing just digits.
 
+`invalid` could be legally converted to [`String`](/mapping/available-types.md).
 

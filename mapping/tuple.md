@@ -17,7 +17,7 @@ ExampleType < Matter:
 
 The mapping of `example` either returns `interesting` or `awesome`.
 
-**Remainder:** If we leaved out the last line either `This is interesting` or `This is awesome` would be returned as the result of auto-conversion of [strings](/mapping/available-types.md).
+**Remainder:** If we left out the last line, either `This is interesting` or `This is awesome` would be returned as the result of auto-conversion of [strings](/mapping/available-types.md).
 
 ##### **Tuple of tuples:**
 
