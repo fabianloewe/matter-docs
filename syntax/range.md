@@ -1,4 +1,4 @@
-## Range
+# Range
 
 A _range_ is rule which expects one or more characters in a certain range. Basically this rule type is just syntactic sugar to prevent huge [alternations](//syntax/alternation.md). Currently you can only specify a range of the following characters:
 
@@ -8,7 +8,7 @@ A _range_ is rule which expects one or more characters in a certain range. Basic
 
 Ranges of multiple characters are allowed as long as they consist of one of the above kinds. These ranges are evaluated \(like decimal numbers are incremented\) from right to left. To get a better understanding of this see the example below.
 
-#### Example
+### Example
 
 ```ruby
 example = "aaa".."azz"

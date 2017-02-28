@@ -4,9 +4,9 @@ The `String` is the type you might need most of the time. It simply contains a s
 
 It is created by double quotes \(`"`\) and is the only type which is exactly the same in [_Syntax_](//syntax/README.md) and [_Mapping_](/mapping.md). It can be automatically converted from any syntax rules only consisting of other rules and strings \(no custom types\).
 
-#### Examples
+### Examples
 
-**Definition:**
+##### **Definition:**
 
 ```ruby
 example = "Indeed this is a string"
@@ -14,7 +14,7 @@ example = "Indeed this is a string"
 
 `example` represents the character set `Indeed this is a string`.
 
-**Auto-conversion:**
+##### **Auto-conversion:**
 
 ```ruby
 ExampleType < Matter:
@@ -25,4 +25,17 @@ ExampleType < Matter:
 ```
 
 The rule `example` is only made of rules containing or working with strings. So no errors will occur.
+
+##### **String concatenation:**
+
+```ruby
+ExampleType < Matter:
+  Syntax:
+    example = "My name is " ("Rolf" | "Ralof")
+  Mapping:
+    example -> String:
+      example.0 example.1
+```
+
+Also in code the whitespace is used as the concatenation operator.
 

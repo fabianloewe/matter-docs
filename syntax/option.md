@@ -1,10 +1,10 @@
-## Option
+# Option
 
 An _option_ is a rule which can be defined in the parsed string but doesn't have to.
 
 **Symbol:** Square brackets \(`[` and `]` \)
 
-#### Example
+### Example
 
 ```ruby
 example = "Hello world" [ "!" ]

@@ -19,4 +19,7 @@
   * [Built-in types](mapping/built-in-types.md)
     * [String](mapping/available-types.md)
     * [Int](/mapping/int.md)
+    * [Float](mapping/float.md)
+    * [Tuple](mapping/tuple.md)
+    * [List](mapping/list.md)
 

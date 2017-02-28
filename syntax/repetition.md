@@ -1,12 +1,12 @@
-## Repetition
+# Repetition
 
 A _repetition_ defines a rule which can occur multiple times.
 
-### Zero or more times
+## Zero or more times {#zero-or-more-rep}
 
 This type of repetition can be parsed one or more times or not at all and still is valid. The star \(`*`\) behind the curly brackets \(`{` and `}`\) defines this rule.
 
-#### Example
+### Example
 
 ```ruby
 example = "Hello world" { "!" }*
@@ -18,11 +18,11 @@ example = "Hello world" { "!" }*
 
 **Invalid strings: **`Hello world.` , `Hello world !`
 
-### One or more times
+## One or more times
 
 This type of repetition must be parsed at least one or more times to be valid. The plus sign \(`+`\) behind the curly brackets \(`{` and `}`\) defines this rule.
 
-#### Example
+### Example
 
 ```ruby
 example = "Hello world" { "!" }+

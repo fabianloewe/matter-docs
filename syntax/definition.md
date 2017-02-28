@@ -1,8 +1,8 @@
-## Variable definition
+# Variable definition
 
 A _definition_ is a grammatical rule assigned to variable. A rule is usually made of multiple parts but can just be a `String`, too. The variable name can only consist of lowercase letters, numbers and dashes \(`-`\).
 
-#### Example
+### Example
 
 ```ruby
 example = "Hello world"

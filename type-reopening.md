@@ -10,16 +10,16 @@ ForLoop < Statement:
     ...    # New stuff for Syntax
 ```
 
-As a difference to Ruby in Matter it is clear instantly if a type is reopened or new defined. A type name followed by a colon \(`:`\) always means the type must already be defined somewhere. In our example `Syntax` is a built-in type from inside of `Matter` which is the incredible base type of everything and defined by the compiler \(so also built-in\).
+As a difference to Ruby, in Matter it is clear if a type is reopened or newly defined. A type name followed by a colon \(`:`\) always means the type must already be defined somewhere. In our example [`Syntax`](//syntax/README.md) is a built-in type from inside of `Matter` which is the incredible base type of everything and defined by the compiler \(so built-in, too\).
 
-Because our ancestor `Statement` is a descendant of `Matter` it also has `Syntax` defined and thus it can be reopened in any other descendant of it. Sounds a bit compilcated? Here comes another example:
+Because our ancestor `Statement` is a descendant of `Matter` it also has [`Syntax`](//syntax/README.md) defined and thus it can be reopened in any other descendant of it. Sounds a bit compilcated? Here comes another example:
 
 ```ruby
 SomeType < Matter:     # Matter = base type
   ChildType < Matter:  # A child type
     var1 = 1           # An exemplary variable
 
-OtherType < SomeType:  # Other type derives from SomeType
+OtherType < SomeType:  # OtherType derives from SomeType
   ChildType:           # Reopened
     var1 = 2           # Overriden
     var2 = 3           # New variable defined

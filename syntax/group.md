@@ -1,10 +1,10 @@
-## Group
+# Group
 
-A _group_ creates a sub-rule by containing one or more other rules. It can \(and should\) also be used to make larger rules like an huge [alternation](//syntax/alternation.md) more outstanding. 
+A _group_ creates a sub-rule by containing one or more other rules. It can \(and should\) also be used to make larger rules like an huge [alternation](//syntax/alternation.md) more outstanding.
 
 **Symbol:** Square brackets \(`[` and `]` \)
 
-#### Example
+### Example
 
 ```ruby
 example = "Hello world" [ "!" ]

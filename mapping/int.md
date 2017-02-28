@@ -2,11 +2,11 @@
 
 The integer type \(defined as `Int`\) represents a **non-floating point** number. At the moment it can only be created as a decimal number.
 
- It can also be auto-converted like [`String`](/mapping/available-types.md)with the exception that each string in the syntax rule must only consist of digits.
+It can also be auto-converted like [`String`](/mapping/available-types.md)with the exception that each string in the syntax rule must only consist of digits.
 
-#### Examples
+### Examples
 
-**Definition in **[**`Mapping`**](/mapping.md)**:**
+##### **Definition in **[`Mapping`](/mapping.md)**:**
 
 ```ruby
 example = 42
@@ -14,7 +14,7 @@ example = 42
 
 `example` represents the number `42`.
 
-**Auto-conversion:**
+##### **Auto-conversion:**
 
 ```ruby
 ExampleType < Matter:
