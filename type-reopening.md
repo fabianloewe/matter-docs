@@ -10,7 +10,7 @@ ForLoop < Statement:
     ...    # New stuff for Syntax
 ```
 
-As a difference to Ruby, in Matter it is clear if a type \(here matter\) is reopened or newly defined. A matter name followed by a colon \(`:`\) always means the matter must already be defined somewhere. In our example [`Syntax`](//syntax/README.md) is a built-in type from inside of `Matter` which is the incredible base thing of everything and defined by the compiler \(so built-in, too\).
+As a difference to Ruby, in Matter it is clear if a matter type is reopened or newly defined. A matter name followed by a colon \(`:`\) always means the matter type must already be defined somewhere. In our example [`Syntax`](//syntax/README.md) is a built-in type from inside of `Matter` which is the incredible base thing of everything and defined by the compiler \(so built-in, too\).
 
 Because our ancestor `Statement` is a descendant of `Matter` it also has [`Syntax`](//syntax/README.md) defined and thus it can be reopened in any other descendant of it. Sounds a bit compilcated? Here comes another example:
 
